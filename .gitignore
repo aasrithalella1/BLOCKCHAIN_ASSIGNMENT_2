@@ -1,0 +1,22 @@
+# build/artifacts
+artifacts/
+cache/
+coverage/
+typechain/
+dist/
+
+# deps
+node_modules/
+
+# logs
+*.log
+npm-debug.log*
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
+.env.*
+!.env.example
